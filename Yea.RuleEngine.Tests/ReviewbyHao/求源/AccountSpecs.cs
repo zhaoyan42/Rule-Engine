@@ -13,7 +13,7 @@ namespace Yea.RuleEngine.Tests.ReviewbyHao.求源
     {
         public void Charge(int i)
         {
-            throw new System.NotImplementedException();
+            Balance = Balance + i;
         }
 
         public int Balance { get; private set; }
